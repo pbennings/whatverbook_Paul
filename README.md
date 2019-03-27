@@ -6,7 +6,7 @@ Today we're going to learn how to play with objects a little. Because the data y
 
 #### Instructions
 
-1. You're going to semi-fork [this repo](https://github.com/abbreviatedman/whateverbook) according to [these instructions](http://simp.ly/p/rhtFY4), re-naming it to whatever you have planned for the content. Don't worry too too much about what content that content _is_ yet. You can re-name the repo locally and globally at any time.
+1. You're going to semi-fork [this repo](https://github.com/abbreviatedman/whateverbook) according to [these instructions](http://simp.ly/p/rhtFY4), re-naming it to whatever you have planned for the content. Don't worry too too much about the content, especially since you now know how to create a new repo with a new name that's based on the old repo, and you don't even need to lose the record of your commits when you do so!
 
 2. You'll notice that there are _two_ `<script>` tags in your `index.html` file. The second is for our usual `main.js` file, but the first is for a `data.js` file, where we'll put our objects. Why is the `data.js` file first? Well, your browser will interpret our JavaScript in the order it finds in our html, and we need to have that global `data` variable declared and populated before we can access its data. Otherwise you have a situation like this:
 
